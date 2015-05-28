@@ -1,0 +1,45 @@
+/* | BONES CORE ASSETS |  */
+
+/*Brand Colors*/
+.primary-text{
+    color: #2c3e50;
+}
+.secondary-text{
+    color: #16a085;
+}
+
+.primary-bg{
+    color: #fff;
+    background-color: #2c3e50;
+}
+.secondary-bg{
+    color: #fff;
+    background-color: #16a085;
+}
+
+/*Nav*/
+.nav-brand a{
+ color: white;
+ font-size: 1.5em;
+}
+.nav-brand a:hover{
+ color: lightgray;
+ font-size: 1.5em;
+}
+
+/*Buttons*/
+.btn-primary {
+  color: #2c3e50;
+  background-color: #fff;
+  border-color: #2c3e50;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #16a085;
+  border-color: #16a085;
+}
+.btn-secondary:hover {
+  color: #fff;
+}
+
+/* | Your CSS Here! |  */
