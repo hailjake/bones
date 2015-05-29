@@ -46,7 +46,6 @@ input[type="text"].focus {
   border-bottom: solid 2px #969696;
 }
 
-
 /*nav*/
 header{
  width: 100%;
@@ -64,23 +63,17 @@ header{
  color: lightgray;
  font-size: 1.5em;
 }
-
-
 .nav-links{
     padding: 15px;
 }
-
 .nav-links a{
     color: white;
     margin-right: 20px;
 }
-
 .nav-links a:hover{
     color: lightgray;
     margin-right: 20px;
 }
-
-
 
 /*Radio And Checkbox*/
 .radio label,
@@ -242,8 +235,6 @@ input[type="checkbox"]:disabled:checked:after,
   border-color: transparent;
 }
 
-
-
 /*Buttons*/
 .btn {
   display: inline-block;
@@ -313,7 +304,6 @@ fieldset[disabled] .btn {
   color: #fff;
 }
 
-
 /*Links*/
 a:active,
 a:hover {
@@ -352,7 +342,7 @@ a:focus {
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
-.img-circle {
+.round {
   border-radius: 50%;
 }
 
@@ -384,4 +374,11 @@ a:focus {
   text-shadow: none;
   background-color: transparent;
   border: 0;
+}
+.hero{
+    padding-top: 50px;
+    height: 300px;
+}
+.center-text{
+    text-align: center;
 }

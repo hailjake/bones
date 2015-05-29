@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Minimal Less Framework for Front End Devlopers">
+    <meta name="keywords" content="HTML, CSS,flat, modern, framework, bootstrap, front-end, frontend, web development">
     <meta name="author" content="@hailjake of inhailmedia">
     <link rel="icon" href="../../favicon.ico">
-
-    <title>Bones - a minimal css framework</title>
+    <title>bearBones &middot; a modern minimal responsive css framework</title>
 
     <!-- Bones Main CSS -->
-    <link href="/css/bones-columns.css" rel="stylesheet">
-    <link href="/css/bones-assets.css" rel="stylesheet">
+    <link href="/css/bones-columns.min.css" rel="stylesheet">
+    <link href="/css/bones-assets.min.css" rel="stylesheet">
     <link href="/css/custom.css" rel="stylesheet">
 
     <!-- Optional Google Font --> 
@@ -29,16 +28,21 @@
 
         <div class="wrapper-fluid">
             
-            <h1 class="secondary-text"> Welcome To Bones <br> <small class="primary-text">a free modern minimal css framework for front end developers</small> </h1>
+            <nav class="pull-right">
+                    <a href="/example-1-basic.html" class="btn btn-secondary">example page</a>
+                    <a href="http://www.github.com/hailjake" class="btn btn-secondary">github</a>
+            </nav>
+            
+            <h1 class="secondary-text"> Welcome To bearBones <br> <small class="primary-text">a free modern minimal fully responsive css framework for front end developers using a flat UI</small> </h1>
             
             <p>bones was created by neccessity for those who want a headstart on development but are tired of sifting through over bloated frameworks.</p>
             
             <p> this library is seperated into 3 files.</p> 
             
             <ol>
-                <li>bones-columns.css</li>
-                <li>bones-assets.css</li>
-                <li>custom.css</li>
+                <li>bones-columns.css - <small class="secondary-text"> contains code for page layouts</small></li>
+                <li>bones-assets.css - <small class="secondary-text"> contains code for assets i.e. buttons, text, inputs etc.</small></li>
+                <li>custom.css - <small class="secondary-text"> contains code for overriding sitewide colors and your custom css</small></li>
             </ol>
             
            <p>use what you need remove what you dont, all styles can be customized by modifying the <bold class="secondary-text">custom.css</bold> file.</p> 
@@ -149,6 +153,7 @@
             </div>
             <hr>
             <br>
+            
             <!-- | Styled Assets | -->
             <h3>2.) assets:</h3>
             <h4>header navagation:</h4>
@@ -160,7 +165,7 @@
                     <a href="#">about</a>
                 </nav>
                 
-                <div class="nav-brand"><a href="">bones</a></div>
+                <div class="nav-brand"><a href="">bearBones</a></div>
             </header>
             
             <h4>hero's:</h4>
@@ -188,8 +193,6 @@
             
             <input class="form-control" type="text" placeholder="text input" >
             
-
-            
             <h4>typography:</h4>
             
             <h1>Header 1</h1>
@@ -197,11 +200,8 @@
             <h3>Header 3</h3>
             <h4>Header 4</h4>
             <h5>Header 5</h5>
-            
-            
-            <h4>images:</h4>
-            
-            <p>anything we should add or make better email <span class="secondary-text">inhailmedia@gmail.com</span> or create a pull request on our github. ps less coming soon!</p>
+                        
+            <p class="pull-right">anything we should add or make better email <span class="secondary-text">inhailmedia@gmail.com</span> or create a pull request on our github. ps less coming soon!</p>
 
             <!-- | see you nextime space cowboy | -->
 
